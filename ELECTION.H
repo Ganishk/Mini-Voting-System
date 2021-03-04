@@ -18,7 +18,7 @@ CAND *a;
 
 void candname(CAND *a)
 {
-	FILE*f1;
+	FILE *f1;
 	printf("Enter Candidate name:");
 	scanf("\n");
 	gets(a->nm);
